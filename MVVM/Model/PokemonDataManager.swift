@@ -48,5 +48,9 @@ class PokemonDataManager {
     func count() -> Int {
         return pokemons.count
     }
+    //Se añade esta linea de código al Model de MVC
+    func allPokemons() -> [Pokemon]{
+        return pokemons
+    }
     
 }
